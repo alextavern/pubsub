@@ -1,6 +1,3 @@
-M111 - Big Data - Spring 2022 - Programming Assignment
-Alexandros Tavernarakis
-
 ##############################################################################################################################
 
 *PROJECT DESCRIPTION AND IMPLEMENTATION*
