@@ -1,6 +1,4 @@
-##############################################################################################################################
-
-*PROJECT DESCRIPTION AND IMPLEMENTATION*
+# PROJECT DESCRIPTION AND IMPLEMENTATION
 
 This code implements a simple pubsub architecture and is heavily inspired by the template example provided during class. 
 
@@ -23,23 +21,21 @@ automatically the message to the subsciber.
 Furthermore, the broker needs to be setup in order to accept multiple connections from multiple publishers and subscribers. 
 To implement this, a different thread is opened each time a publisher/subscriber is connecting to the broker (using the start_new_thread() method).
 
-##############################################################################################################################
-
-*TO RUN THE CODE*
+# TO RUN THE CODE
 
 The implementation is realized using python, as proposed in class.
 The code can be run as illustrated in class.
 Open three different terminals, one for each script, compile and run the corresponding scipts:
 
-1. Run the broker by typing:
+  1. Run the broker by typing:
 
 ./broker
 
-2. Run the subscriber by typing:
+  2. Run the subscriber by typing:
 
 ./subscriber
 
-3. Run the publisher by typing:
+  3. Run the publisher by typing:
 
 ./publisher
 
